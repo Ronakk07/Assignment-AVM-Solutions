@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Rota";
+  color: #000;
+  src: url(../ui_design_resources/Rota_fonts/Rota/Rota-Black.otf)
+    format("opentype");
+}
+
+body {
+  font-family: "Rota";
+}
+
+.logo-container {
+  width: 180px;
+  margin: auto;
+  margin-top: 20px !important;
+}
+
+.card-wrapper {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.air-quality-card {
+  width: 240px;
+  height: 150px;
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.air-quality-info {
+  display: flex;
+  margin: 0 12px 0 14px;
+}
+
+.air-quality-heading {
+  color: #3a3939;
+  padding: 10px 10px 2px 10px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.number-circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  background: #6dd0a5;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.number {
+  color: #fff;
+  font-size: 45px;
+}
+
+.number-with-arrows {
+  display: flex;
+  margin: 10px 0 0 30px;
+}
+
+.divider {
+  height: 0.4px;
+  width: 100px;
+  /* margin-top:20px; */
+  float: right;
+  background-color: #c9c5c5;
+}
+
+.gg-arrow-up {
+  margin-top: 7px;
+  color: #6dd0a5;
+}
+
+.up-arrow-number {
+  font-size: 32px;
+  color: #999999;
+}
+
+.gg-arrow-down {
+  margin-top: 7px;
+  color: #ffa500;
+}
+
+.down-arrow-number {
+  font-size: 32px;
+  color: #999999;
+}
+
+.temperature-heading {
+  color: #3a3939;
+  padding: 10px 10px 2px 10px;
+  margin: 0;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.audio-number {
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 5em;
+}
+
+.audio-playing {
+  margin-top: 39px;
+  background: #6dd0a5;
+  height: 25px;
+  width: 70px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "sans-serif";
+}
+
+.total {
+  margin-left: 15px;
+  margin-top: 2.6em;
+}
+
+.card-wrapper-2 {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.lighting-number {
+  padding: 18px 8px 0 2px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 4.5em;
+}
+
+hr.vertical {
+  height: 60px;
+  margin-top: 30px;
+  background: #e4e4e4;
+}
+
+.display-number {
+  padding: 5px 8px 0 2px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 5em;
+}
